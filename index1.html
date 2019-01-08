@@ -1,68 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<LINK REL=StyleSheet HREF="styles.css"/>
+<!--<link href="https://fonts.googleapis.com/css?family=Alike+Angular" rel="stylesheet">-->
+<link href="https://fonts.googleapis.com/css?family=Port+Lligat+Slab" rel="stylesheet">
+  <head >
     <meta >
     <title>Jonathan Sastre</title>
     <link rel="icon" type="image/png" href="images/logojyc.jpg"/>
+    <meta name="viewport"content="width=device-width,initial-scale=1">
   </head>
   <body>
-   <h1> Welcome to my official website </h1>
-   <img src="images/jonathan.jpg" width="170"/>
-   <h2>Jonathan Sastre</h2>
-    <header>
-      <nav class="menu">
-        <ol>
-          <li>
-             <a href="#Biography">Biography</a>
-          </li>
-          <li>
-             <a href="#Professional experience">Professional experience</a>
-          </li>
-           <li>
-              <a href="#Contact">Contact</a>
-            </li>
-          </ol>
-        </nav>
-      </div>
-      </div>
+    <header class="header">
+      <!-- The navigation menu -->
+     <div class="navbar">
+    <a class="active" href="#Biography">Biography</a>
+    <a href="#Professional experience">Professional experience</a>
+    <a href="#Contact">Contact</a>
+     </div>
+      <h1 class="title">hi my name is jonathan sastre  Welcome to my website </h1>
 </header>
- <section id="Biography">
-  <h3> <strong>Biography</strong></h2>
-    <article>
-      <p>My name is Jonathan Sastre I was born in Bogota on August 23, 1997
+
+ <section id="Biography"class="Biography">
+ <div class="proyect">
+    <div class="proyect-image">
+     <img class="body-image"src="images/jonathan.jpg" width="170"/>
+    </div>
+    <div class="proyect-description">
+     <h2 text-align="center"> <strong>Biography</strong></h2>
+      <article class="proyect-details">
+       <p  class="Biography-article" >My name is Jonathan Sastre I was born in Bogota on August 23, 1997
         I live with my parents and I have 2 brothers one is a student
         of the UIS and the other is already graduating and I am of the UTS
         my brother is my twin is my same age and my sister is the oldest with
          24 and my brother is in the electronic engineering career
          my sister was in metallurgical engineering and
          I am in systems engineering and my parents Hernan Sastre and Maherly Lozada </p>
-       <p><small><strong>Date:</strong>16/12/18</small></p>
-        <a href="http://jonathansastre23.blogspot.com/" target="_blank">site</a>
+
         <p>the experience speaks for itself is incredible to be at the doors of beginning
           your work life and after the university to be a systems engineer
-          and technologist keep learning and developing as a person and in the languages</p>
+          and technologist keep learning and developing as a person and in the languages
+          I also like to sing as a hobby and I develop in systems engineering, I am very interested in religion (faith)</p>
+          <!--https://www.w3schools.com/howto/howto_css_team.asp-->
+    </div>
+  </div>
       </article>
-    </section >
-    <h2 id="Professional experience">Professional experience</h2>
-    <article>
-      <figure>
-        <img src="images/utsmas.png"/>
-      </figure>
-       <h3><strong>in collage</strong>(uts)</h3>
-       <p>In any university in the world you know many people and learning has a lot of dedication
-         and effort, that is real life and to be the best you have to do this day by day with values
-        ​​and perseverance for each day not to compare yourself with anyone but with yourself since
-        It is the hardest battle and if that is achieved you are a better person in each role of life
-        and in general you are going to be a very successful person in life and always on the side of humility and affection to the progimo</p>
-    </article>
-     <a href="http://jonathansastre23.wixsite.com/misitio" target="_parent">see here</a>
-   <section id="Contact">
+    </section>
+<section id="Professional experience">
+  <h2> Professional experience</h2>
+  <div class="row">
+    <div class="column">
+      <div class="box">
+        <img class="image1"src="images/utsmas.png"/>
+         <!--<h3><strong>in collage</strong>(uts)</h3>-->
+        <p class="university-event">In any university in the world you know many people and learning has a lot of dedication
+          and effort, that is real life and to be the best you have to do this day by day with values
+         ​​and perseverance for each day not to compare yourself with anyone but with yourself since
+         It is the hardest battle and if that is achieved you are a better person in each role of life
+         and in general you are going to be a very successful person in life and always on the side of humility and affection to the progimo,and my hobbie are
+         sing,programing.</p>
+
+      </div>
+    </div>
+    <div class="column2">
+      <div class="row2">
+        <div class="box">
+          <img src="images/bda.png" class="bda"/>
+          <p>In my career I learned some database languages ​​such as postgresql and oracle, which helped me to manage and organize.
+          My information and data in an easy, fast and optimal way. In addition to managing a work level, helping companies with their data
+          to ensure good handling of them.</p>
+        </div>
+      </div>
+      <div class="row2">
+        <div class="box">
+          <img class="img-lenguajes"src="images/lenguajes de programacion.png"/>
+          <p>I have used several programming languages, each of them with their respective level of complexity
+          they help us to develop the logic and structure of the data, also to understand how each computer works, to understand the procedures
+          , instructions or patterns.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+    </section>
+<section id="Contact">
+  <div  class="Contact-div">
+      <div class="social">
+        <h2>Contact:</h2>
+        <a href="https://www.facebook.com/jsastrelozada"><img src="images/facebook.png"/></a>
+        <a href="http://jonathansastre23.blogspot.com/"><img src="images/blogs.png"/></a>
+        <a href="https://github.com/jsastre1"><img src="images/github.png"/></a>
+        <a href="http://jonathansastre23.wixsite.com/misitio"><img src="images/wix.png"/></a>
+     <!--<div class="aboutme">
      <form action="/suscription/">
-       <h3>Contact</h3>
-       <input type="text"placeholder="leave us your email">
-       <input type="submit"value="send">
+       <h3 class="contact">Contact</h3>
+       <input class="botton"type="text"placeholder="leave us your email">
+       <input class="send"type="submit"value="send">
      </form>
-   </section>
-<footer>footer</footer>
+   </div>-->
+     </div>
+  <div class="Contact-div2">
+      <p><small><strong>Date:</strong>18/12/18</small></p>
+      <p>Creador:Jonathan Sastre</p>
+  </div>
+</div>
+  </section >
   </body>
 </html>

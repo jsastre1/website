@@ -1,0 +1,230 @@
+body{
+  font-family:inherit;
+  background-color:white;
+  padding-top: 0px ;
+  /*font-family: 'Alike Angular', serif;*/
+  font-family: 'Port Lligat Slab', serif;
+}
+body p{
+  color:grown;
+  font-size: 20px;
+}
+h1{
+  line-height: normal;
+  font-size:40px;
+  color: #000000;
+  font-weight: bold;
+  font-style:normal;
+  letter-spacing: -0.2px;
+  text-transform:capitalize;
+  text-decoration:inherit;
+  text-align: center;
+}
+.Biography{
+  padding-bottom: 0px;
+  /*width: 20px;*/
+  height: inherit;
+}
+.proyect-details{
+  width: auto;
+}
+.proyect p{
+  display: block;
+  text-align: center;
+}
+nav{
+  padding:inherit;
+}
+.header{
+  padding-top: 0px;
+  background-color:	#FFFFFF;
+}
+/*menu de navegacion*/
+.navbar {
+  width: 100%;
+  background-color:brown  ;
+  overflow: auto;
+}
+.navbar a {
+  float: left;
+  padding: 12px;
+  color:white ;
+  text-decoration: none;
+  font-size: 30px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+  flex-wrap: wrap;
+}
+.navbar a:hover {
+  background-color: tomato;
+}
+.navbar a.active {
+  background-color:brown;
+}
+.proyect{
+  display: flex;
+  /*flex-direction: row;*/
+  /*padding-right: 130px;*/
+}
+.proyect img {
+  padding-left: 20%;
+  padding-right: 30%;
+  border-radius: 20px;
+  border: 0px solid black;
+  width: 300px;
+  height: 300px;
+  padding-top:20px;
+}
+.proyect-description{
+ display:flex;
+ flex-direction: column;
+ padding-top: 0px;
+ margin-top: 0px;
+ text-align: center;
+ justify-content: center;
+}
+.proyect-image{
+  /*display:block;*/
+}
+.aboutme{
+  display: flex;
+}
+.row{
+  display:inline-flex;
+}
+.image1{
+  align-self: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius:100px;
+  border: 5px solid white;
+  height: 200px;
+}
+/* news*/
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  height: 300px;
+  margin-bottom: 10px;
+  padding: 0 8px;
+  box-shadow: 0px;
+}
+.row2{
+  display:flex;
+  flex-direction: row;
+}
+.column2{
+  display:flex;
+  flex-direction: column;
+}
+.row2 img{
+  float: left;
+}
+.row2 p{
+  margin: 50px;
+  padding-right: 10px;
+}
+/* Add some shadows to create a card effect */
+.box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.img-lenguajes{
+  height: 200px;
+  margin-top: 20px;
+}
+.bda{
+  height: 300px;
+}
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+.title {
+  color: black;
+}
+.Contact-div img {
+  width: 50px;
+  height: 50px;
+  padding-left: 10px;
+}
+.Contact-div {
+  display: flex;
+  align-items: center;
+}
+.Contact-div2 {
+ width: 50% ;
+ float:right;
+ text-align: right;
+}
+.social{
+  display:flex;
+  width: 50%;
+}
+@media screen and (max-width:1024px){
+ .proyect img{
+  padding-top: 25%;
+ }
+ .row{
+   flex-wrap: wrap;
+   display: flex;
+ }
+ .column{
+   display: flex;
+   flex-direction: row;
+   width: auto;
+   height: auto;
+   padding-left: 0px;
+   padding-right: 0px;
+ }
+ .image1{
+   margin: auto;
+   float: left;
+ }
+@media screen and (max-width:800px){
+  .header{
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+  .column{
+    padding-left:0px;
+    padding-right:0px;
+  }
+}
+@media screen and (max-width:530px){
+  .Contact-div {
+    flex-wrap: wrap;
+  }
+  .Contact-div2,
+  .social{
+    width: auto;
+    text-align:left;
+  }
+  .social img{
+    padding-top:20%;
+  }
+  .image1{
+    margin: auto;
+    float: none;
+    border-left: 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+@media screen and (max-width:320px){
+  .header{
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+  .proyect-image{
+    padding-right:30%;
+  }
+}
