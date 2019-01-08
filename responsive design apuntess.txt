@@ -1,0 +1,46 @@
+patrones o tecnicas de responsive design
+-Mostly fluid(princip fluido)
+-Colocacion de columnas(column grop)
+-Layout shifter
+-Tiny tweaks(peq modificaciones)
+-off canvas(sin lienzo)
+
+viewport->area visible del navegador
+portrait-landscape->vertical o horizontal
+mobile first->menor a mayor resolucion de pantallas (mejor)
+desktop first->mayor a menor resolucion soportada
+meta viewport->legibidad
+width=device-width->adaptacion segun pantalla
+initial.scale=1.0->el escalado de 0 a 1
+when 0 es el 0% y 1 el 100% de mi pantalla(zoom)
+
+Medidas relativas utiles
+-porcentaje=longitud de tamaño de elementos padre
+-em=unidad relativa al tamaño de la fuente especificada mas cercana
+-rem= ll     ll     ll   ll     ll ll ll       ll        en el ancestro mas 
+lejano(html o body)
+
+-vw/vh->u.r.p con respecto al viewport
+
+media queries
+adapta la presentacion del contenido a caracteristicas del dispositivo
+max-width=hasta
+min-width=desde
+
+Breakpoints estandarizados que debemos de tener en cuenta:
+
+Móviles: entre 320 y 480 píxeles.
+Tablets: entre 768 y 1024 píxeles.
+Pantallas grandes: más de 1024 píxeles o más.
+
+Flex-wrap: wrap - en el responsive, empieza a bajar los elementos con el cambio de vista.
+
+CSS Positions
+
+static: es la propiedad por defecto.
+Con las otras opciones, se activan las propiedades de top, bottom, left, right y z-index.
+
+relative: el objeto se mueve en base al lugar donde se encuentra originalmente.
+absolute: el objeto se ubica de manera absoluta con el elemento más cercano que tenga posición relativa o con el body.
+fixed: El elemento se muestra de manera fija en el viewport.
+sticky: El elemento se queda de manera fija una vez que aparece en pantalla.
